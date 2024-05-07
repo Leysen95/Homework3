@@ -59,5 +59,13 @@ int bottleDay = oneDay * productivity;
         int whiteJars = classes * white;
         int brownJars = classes * brown;
         System.out.println("В школе, где " + classes + " классов, нужно " + whiteJars + " банок белой краски и " + brownJars + " банок коричневой краски");
+    int banana = 5 * 80;
+    int milk = 2 * 105;
+    int iceCream = 2 * 100;
+    int eggs = 4 * 70;
+    int sportBreakfast = banana + milk + iceCream + eggs;
+        System.out.println("Вес спортзавтрака составляет " + sportBreakfast + " грамм");
+    double sportsBreakfast = (double) sportBreakfast / 1000;
+        System.out.println("Вес спортзавтрака составляет " + sportsBreakfast + " килограмм");
     }
 }
