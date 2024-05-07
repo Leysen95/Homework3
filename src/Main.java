@@ -67,5 +67,14 @@ int bottleDay = oneDay * productivity;
         System.out.println("Вес спортзавтрака составляет " + sportBreakfast + " грамм");
     double sportsBreakfast = (double) sportBreakfast / 1000;
         System.out.println("Вес спортзавтрака составляет " + sportsBreakfast + " килограмм");
+    int weight = 7000;
+    int portion = 250;
+    int days = weight / portion;
+        System.out.println(days + " дней уйдет на похудение, если спортсмен будет терять каждый день по " + portion + " грамм");
+    int portionTwo = 500;
+    int daysHealth = weight / portionTwo;
+        System.out.println(daysHealth + " дней уйдет на похудение, если спортсмен будет терять каждый день по " + portionTwo + " грамм");
+    int averageDays = (days+daysHealth)/2;
+        System.out.println(averageDays + " день в среднем может понадобиться на похудение");
     }
 }
