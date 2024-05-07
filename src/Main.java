@@ -52,5 +52,12 @@ int bottleDay = oneDay * productivity;
         int oneMonth = oneDay * 30;
         long bottleMonth = oneMonth * productivity;
         System.out.println("За месяц " + bottleMonth + " штук бутылок");
+        int allPaints = 120;
+        int white = 2;
+        int brown = 4;
+        int classes = allPaints / (white + brown);
+        int whiteJars = classes * white;
+        int brownJars = classes * brown;
+        System.out.println("В школе, где " + classes + " классов, нужно " + whiteJars + " банок белой краски и " + brownJars + " банок коричневой краски");
     }
 }
