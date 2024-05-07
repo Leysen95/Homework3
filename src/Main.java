@@ -26,6 +26,16 @@ public class Main {
         System.out.println(f);
         byte g = 67;
         System.out.println(g);
+byte studentsLudmila = 23;
+        System.out.println("У Людмилы Павловны " + studentsLudmila + " ученика");
+        byte studentsAnna = 27;
+        System.out.println("У Анны Сергеевны " + studentsAnna + " учеников");
+        byte studentsKate = 30;
+        System.out.println("У Екатерины Андреевны " + studentsKate + " учеников");
+       int allStudents = studentsLudmila + studentsAnna + studentsKate;
+        System.out.println("Всего учеников " + allStudents);
+        int listStudents = 480 / allStudents;
+        System.out.println("На каждого ученика рассчитано " + listStudents + " листов бумаги");
 
     }
 }
