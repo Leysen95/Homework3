@@ -76,5 +76,17 @@ int bottleDay = oneDay * productivity;
         System.out.println(daysHealth + " дней уйдет на похудение, если спортсмен будет терять каждый день по " + portionTwo + " грамм");
     int averageDays = (days+daysHealth)/2;
         System.out.println(averageDays + " день в среднем может понадобиться на похудение");
+    int Masha = 67760;
+   int newMasha = (int) (Masha * 1.1);
+    int differenceMasha = (newMasha * 12) - (Masha * 12);
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей");
+    int Denis = 83690;
+    int newDenis = (int) (Denis * 1.1);
+    int differenceDenis = (newDenis * 12) - (Denis * 12);
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей");
+        int Kristina = 76230;
+        int newKristina = (int) (Kristina * 1.1);
+        int differenceKristina = (newKristina * 12) - (Kristina * 12);
+        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей");
     }
 }
