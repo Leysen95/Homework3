@@ -36,6 +36,21 @@ byte studentsLudmila = 23;
         System.out.println("Всего учеников " + allStudents);
         int listStudents = 480 / allStudents;
         System.out.println("На каждого ученика рассчитано " + listStudents + " листов бумаги");
-
+int bottle = 16;
+int time = 2;
+int productivity = bottle / time;
+        System.out.println("За 1 минуту машина произвела " + productivity + " штук бутылок");
+int times = 20;
+int bottles = times * productivity;
+        System.out.println("За " + times + " минут машина произвела " + bottles + " штук бутылок");
+int oneDay = 24*60;
+int bottleDay = oneDay * productivity;
+        System.out.println("За сутки машина произвела " + bottleDay + " штук бутылок");
+        int threeDays = oneDay * 3;
+        int bottleThree = threeDays * productivity;
+        System.out.println("За 3 дня машина произвела " + bottleThree + " штук бутылок");
+        int oneMonth = oneDay * 30;
+        long bottleMonth = oneMonth * productivity;
+        System.out.println("За месяц " + bottleMonth + " штук бутылок");
     }
 }
